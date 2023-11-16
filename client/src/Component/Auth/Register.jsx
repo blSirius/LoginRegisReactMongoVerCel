@@ -9,7 +9,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/register', {
+      const response = await axios.post('https://server-khaki-kappa-36.vercel.app/register', {
         email,
         password,
       });
